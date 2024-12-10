@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Practica08.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Pizeria de: Carlos y Guachis</title>
+    <asp:ContentPlaceHolder ID="frmMaster" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #TextArea1 {
+            width: 485px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:Label ID="Label1" runat="server" Text="Pizzeria de: Carlos y Guachis"></asp:Label>
+            </asp:ContentPlaceHolder>
+
+        </div>
+    </form>
+    </body>
+</html>
